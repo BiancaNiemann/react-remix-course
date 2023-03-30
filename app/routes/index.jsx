@@ -18,3 +18,10 @@ export default function Index() {
 export function links(){
   return [{rel: "stylesheet", href: styles}]
 }
+
+export function meta(){
+  return{
+      title: "Notes App",
+      description: "Manage your notes here"
+  }
+}
